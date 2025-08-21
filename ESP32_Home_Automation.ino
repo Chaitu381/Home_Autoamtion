@@ -1,21 +1,3 @@
-/****************************************************************************************************************************
-   WiFi & BLE Control Home Automation using ESP32 and Blynk
-
-   Required Library:
-      Blynk library v0.6.1 https://github.com/blynkkk/blynk-library/releases
-      BlynkESP32_BT_WF by Khoi Hoang https://github.com/khoih-prog/BlynkESP32_BT_WF
-      Based on orignal code by Crosswalkersam https://community.blynk.cc/u/Crosswalkersam
-
-   The Sketch is Modified by Sayantan Pal https://github.com/palsayantan/12-ch-Ultimate-Home-Automation-using-ESP32
-
-*****************************************************************************************************************************
-   Important Notes:
-      This code is intended to run on the ESP32 platform!
-      Check your Tools->Board setting. And select ESP32 Dev Module
-      To conmpile, use Partition Scheem with large APP size, such as -- Huge APP (3MB No OTA, 1MB SPIFFS)
-
-*****************************************************************************************************************************/
-
 #include <BlynkSimpleEsp32_BLE_WF.h>
 #include <BlynkSimpleEsp32_WF.h>
 #include <BLEDevice.h>
@@ -165,3 +147,4 @@ void loop() {
   Blynk_BLE.run();
   timer.run();
 }
+
